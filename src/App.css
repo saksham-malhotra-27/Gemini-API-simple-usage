@@ -1,0 +1,62 @@
+.container{
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    color: whitesmoke;
+    gap: 2rem;
+    max-width: 100vw;
+    z-index: 0;
+}
+/*
+  background-image: linear-gradient(
+  180deg,
+  hsl(0deg 0% 0%) 0%,
+  hsl(344deg 0% 12%) 31%,
+  hsl(344deg 0% 21%) 45%,
+  hsl(344deg 0% 31%) 54%,
+  hsl(344deg 0% 41%) 61%,
+  hsl(344deg 0% 52%) 67%,
+  hsl(344deg 0% 64%) 72%,
+  hsl(344deg 0% 75%) 77%,
+  hsl(344deg 0% 88%) 83%,
+  hsl(0deg 0% 100%) 100%
+);
+*/
+.inputAI{
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.OutputAI{
+    background-color:  black;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    min-height: 30vh;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 16px black;
+    height: auto;
+}
+
+.butprompt{
+    width: fit-content;
+    background-color: rgba(23, 28, 32, 0.697);
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    border: 1px solid black;
+   
+}
+
+
+
+.butprompt:hover{
+    background-color: beige;
+    color: black;
+    border: 1px solid black;
+}
